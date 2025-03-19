@@ -13,4 +13,4 @@ cd CSS
 ```
 npm start
 ``` 
-
+- In the browser, navigate to the [localhost URL](http://localhost:8003/designs/class/1)
