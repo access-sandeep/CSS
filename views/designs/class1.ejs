@@ -1,11 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheets/classes/style.css"></link>
-    <title>Static page</title>
-</head>
-<body>
+<%- include("partials/_head", {current_page:1}) %>
     <!-- Business Development -->
     <div class="container bg-1">
         <div>
@@ -44,5 +37,4 @@
             <button class="subscribe">View details</button>
         </div>
     </div>
-</body>
-</html>
+<%- include("partials/_foot") %>

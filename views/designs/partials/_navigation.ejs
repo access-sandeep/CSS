@@ -1,0 +1,18 @@
+<nav>
+    <ul class="navigation">
+        <%
+            const navigation = [
+            {name:'Design Home', link: '/designs'},
+            {name:'Assignment 1 (Day 1 @ 17/03/2025)', link: '/designs/class/1'},
+            {name:'Assignment 2 (Day 2 @ 18/03/2025)', link: '/designs/class/2'},
+            {name:'Assignment 3 (Day 3 @ 19/03/2025)', link: '/designs/class/3'},
+            {name:'Assignment 4 (Day 4 @ 20/03/2025)', link: '/designs/class/4'},
+            {name:'Assignment 5 (Day 5 @ 21/03/2025)', link: '/designs/class/5'},
+            ];
+        %>
+        <% for (var i = 0; i < navigation.length; i++) { %>
+            <li <% if(current_page && current_page==i) {%>class="active"<% }%>><a href="<%-navigation[i].link%>"><%-navigation[i].name%></a></li>
+        <% } %>
+    </ul>
+</nav>
+    

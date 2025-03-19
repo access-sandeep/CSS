@@ -28,6 +28,42 @@ body {
     border: 2px solid #e1e1e1;
 }
 
+/* Common navigation part */
+
+/* nav {  
+    position: fixed;
+} */
+
+ul.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 5px;
+}
+
+ul.navigation > li {
+    padding: 10px 10px;
+    flex-direction:row;
+    align-items:center;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+   
+}
+
+ul.navigation > li > a {
+    color:#474747;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.navigation > li.active > a {
+    color:antiquewhite !important;
+}
+
+.active {
+    background-color: #158e43 !important;
+}
+
 /* Busimess */
 
 h2.business {
