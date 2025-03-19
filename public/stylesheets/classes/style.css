@@ -28,6 +28,11 @@ body {
     border: 2px solid #e1e1e1;
 }
 
+.align-center {
+    margin: 1px auto;
+    width:82%;
+}
+
 /* Common navigation part */
 
 /* nav {  
