@@ -191,3 +191,132 @@ button.subscribe {
     background-color: #fff;
     color: #2c83ed;
 }
+
+/* Assignment 2 specific css */
+.box-shadow {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.rounded {
+    width:100%;
+    border-radius: 15px;;
+}
+
+.image-holder {
+    position:relative;
+    display:flex;
+}
+
+.off {
+    padding: 4px 5px;
+    background-color: #5289e5;
+    font-weight: normal;
+    font-size: 17px;
+    color: #fff;
+    width: 147px;
+    position: absolute;
+    bottom: 16px;
+    left: -1px;
+    flex-direction: column;
+}
+
+.min38 {
+    width: 48px;
+    position: absolute;
+    background: #fff;
+    font-size: 16px;
+    padding: 5px;
+    bottom: 16px;
+    right: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.title, .description {
+    color:#777676;
+}
+
+.description {
+    font-size: 23px;
+}
+
+.foot {
+    display:flex;
+    flex-direction: row;
+    border-top:1px solid rgb(79, 77, 77);
+    gap:20px
+}
+
+.maxsaf {
+    width:60px;
+}
+
+.follow-all, .maxsafty {
+    color:#777676;
+    font-size:19px;
+    margin-top:10px;
+}
+
+.width-5xx {
+    width:543px;
+    margin:10px auto;
+    position:relative;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    color: #fff;
+    bottom: 10%;
+    padding: 0 10px;
+}
+
+.explore {
+    background-color: #fff;
+    border: none;
+    border-radius: 17px;
+    color: black;
+    padding: 10px 20px;
+}
+
+.bg-3 {
+    background-color:#f3ecec;
+    color: #000303;
+    border: 2px solid #e1e1e1;
+    border-radius: 0px;
+}
+
+.mountain-background {
+    background-image: url(../../images/classes/2/mountain.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    height: 145px;
+    position: relative;
+}
+
+.rounded-25 {
+    width: 25%;
+    border-radius: 64px;
+    position: absolute;
+    right: 40%;
+    bottom: -40%;
+}
+
+.details {
+    background-color: #fff;
+    margin-top: -20px;
+}
+
+.founder, .founder-description {
+    padding: 90px 0 0 0;
+    margin: 0 auto;
+    width: 172px;
+}
+
+.founder-description {
+    padding: 17px 0 59px 0;
+    margin: 0 auto;
+    width: 159px;
+}
