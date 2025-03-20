@@ -14,3 +14,9 @@ cd CSS
 npm start
 ``` 
 - In the browser, navigate to the [localhost URL](http://localhost:8003/designs/)
+-
+## To start the project in container
+- In the root folder issue the command as below
+```
+docker-compose up
+```
